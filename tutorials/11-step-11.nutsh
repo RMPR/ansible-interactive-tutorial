@@ -68,7 +68,7 @@ print("\t
 haproxy_backend_weight: 150\n\t
 ")
 
-"If we'd define `haproxy_backend_weight` in `group_vars/web`, it would be used as a 'default': variables defined in `host_vars` files overrides varibles defined in `group_vars`."
+"If we'd define `haproxy_backend_weight` in `group_vars/web`, it would be used as a 'default': variables defined in `host_vars` files overrides variables defined in `group_vars`."
 
 "Now, you can analyse the workspace: `group_vars`, `host_vars` directories and files inside"
 
